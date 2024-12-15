@@ -6,12 +6,12 @@ import clients as c
 dict = {}
 
 dict['commands'] = " ricoh3710 lan 192.168.100.120"
-dict['access'] = "1523564845"
+dict['access'] = "731713226"
 dict['access_pass'] = "1234"
-dict['bark_path'] = "C:\\projetos"
+dict['bark_path'] = "C:\\projetos\\BarkBot"
 dict['bark_command'] = dict['bark_path'] + "\\bark\\dist\\bark.exe" + dict['commands'] 
 
-dict['anydesk_path'] = "C:\\Anydesk\\anydesk.exe"
+dict['anydesk_path'] = "C:\\soft\\AnyDesk\\anydesk.exe"
 
 c.anydesk(dict)
 
